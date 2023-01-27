@@ -37,7 +37,7 @@ namespace Rullet
     
         private void Spin()
         {
-            var randomLoopCount = Random.Range(50, 101);
+            var randomLoopCount = Random.Range(20, 40);
             var randomEndPosition = Random.Range(1, 8);
             spinButton.interactable = false;
             backButton.interactable = false;
